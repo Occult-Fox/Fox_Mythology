@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+body {
+  background-color: #FFD580;
+  margin: 0;
+  font-family: 'Caveat', cursive;
+}
+h1, h2, h3, h4, h5, h6 {
+  background-color: #000000; 
+  color: #FFFFFF;            
+  padding: 10px;
+  border: none;
+}
+p {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 19px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  border: none;
+  overflow: auto;
+}
+ul, ol {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 10px 10px 10px 30px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  border: none;
+  overflow: auto;
+}
+ul li, ol li {
+  margin-bottom: 10px;
+}
+.float-img {
+  float: right;
+  margin-left: 15px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid #FFD580;
+  box-sizing: border-box;
+  display: block;
+}
+.wider-img {
+  width: 300px;
+  height: auto;
+}
+.Paragraph {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding: 19px;
+  margin-bottom: 15px;
+  overflow: auto; /* ensures floated image stays inside */
+}
+.Paragraph p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+.Paragraph img {
+  float: right;
+  margin-left: 15px;
+  width: 200px;
+  border: 3px solid #FFD580;
+}
+.Paragraph::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav-bar {
+  background-color: #000000;
+  padding: 10px;
+  text-align: center;
+}
+.nav-bar .nav-btn {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #FFD580;
+  border: none;
+  cursor: pointer;
+  font-family: 'Caveat', cursive;
+  font-size: 1.1em;
+}
+.nav-bar .nav-btn:hover {
+  background-color: #e6c070; /* subtle hover effect */
+}
